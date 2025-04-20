@@ -1,19 +1,22 @@
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 body {
-  font-family: 'VT323', 'Roboto Mono', monospace, monospace;
-  background: #121212 url('https://www.transparenttextures.com/patterns/dark-mosaic.png') repeat;
-  color: #e0e0e0;
+  font-family: 'Roboto Slab', serif;
+  background: #1a0a0a url('https://www.transparenttextures.com/patterns/dark-mosaic.png') repeat;
+  color: #f2dede;
   line-height: 1.6;
   padding: 20px;
 }
 
 header {
-  border-bottom: 3px solid #2e8b57;
+  border-bottom: 3px solid #8b0000;
   margin-bottom: 25px;
   padding-bottom: 15px;
 }
@@ -27,15 +30,15 @@ header {
 .icon-zombie, .icon-shovel {
   width: 40px;
   height: 40px;
-  stroke: #2e8b57;
+  stroke: #b22222;
   stroke-width: 2.5;
 }
 
 header h1 {
   font-size: 2.8rem;
-  color: #2e8b57;
+  color: #b22222;
   font-weight: 700;
-  text-shadow: 0 0 8px #2e8b57;
+  text-shadow: 0 0 8px #8b0000;
 }
 
 nav {
@@ -43,7 +46,7 @@ nav {
 }
 
 nav a {
-  color: #7fffd4;
+  color: #ff4c4c;
   text-decoration: none;
   margin-right: 20px;
   font-weight: 600;
@@ -52,36 +55,36 @@ nav a {
 }
 
 nav a:hover {
-  color: #40e0d0;
+  color: #ff0000;
   text-decoration: underline;
 }
 
 main {
   max-width: 900px;
   margin: 0 auto;
-  background-color: rgba(30, 30, 30, 0.85);
+  background-color: rgba(40, 0, 0, 0.85);
   padding: 25px;
   border-radius: 10px;
-  box-shadow: 0 0 12px #2e8b57aa;
+  box-shadow: 0 0 12px #8b0000aa;
 }
 
 .intro img.logo {
   display: block;
   margin: 0 auto 20px auto;
   max-width: 180px;
-  filter: drop-shadow(0 0 5px #2e8b57);
+  filter: drop-shadow(0 0 5px #b22222);
 }
 
 h2 {
-  color: #2e8b57;
+  color: #b22222;
   margin-bottom: 18px;
-  text-shadow: 0 0 5px #2e8b57;
+  text-shadow: 0 0 5px #8b0000;
 }
 
 h3 {
   margin-top: 25px;
   margin-bottom: 12px;
-  color: #66cdaa;
+  color: #e06666;
 }
 
 ul {
@@ -91,23 +94,23 @@ ul {
 }
 
 footer {
-  border-top: 3px solid #2e8b57;
+  border-top: 3px solid #8b0000;
   margin-top: 30px;
   padding-top: 15px;
   text-align: center;
   font-size: 1rem;
-  color: #7fffd4;
-  text-shadow: 0 0 5px #2e8b57;
+  color: #ff6666;
+  text-shadow: 0 0 5px #8b0000;
 }
 
 footer a {
-  color: #7fffd4;
+  color: #ff6666;
   text-decoration: none;
   font-weight: 700;
 }
 
 footer a:hover {
-  color: #40e0d0;
+  color: #ff0000;
   text-decoration: underline;
 }
 
@@ -115,13 +118,13 @@ footer a:hover {
   display: block;
   margin: 15px auto 25px auto;
   max-width: 120px;
-  filter: drop-shadow(0 0 6px #2e8b57);
+  filter: drop-shadow(0 0 6px #b22222);
 }
 
 a {
-  color: #76eec6;
+  color: #ff7f7f;
 }
 
 a:hover {
-  color: #40e0d0;
+  color: #ff0000;
 }
