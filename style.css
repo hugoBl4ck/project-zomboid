@@ -1,8 +1,14 @@
-body {  
-    font-family: Arial, sans-serif;  
+* {  
+    box-sizing: border-box;  
     margin: 0;  
     padding: 0;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
     background-color: #f4f4f4;  
+    color: #333;  
 }  
 
 header {  
@@ -13,7 +19,7 @@ header {
 }  
 
 h1 {  
-    margin: 0;  
+    margin: 10px 0;  
 }  
 
 .cta-button {  
@@ -21,4 +27,35 @@ h1 {
     color: white;  
     padding: 10px 20px;  
     text-decoration: none;  
+    border-radius: 5px;  
+    transition: background 0.3s;  
+}  
+
+.cta-button:hover {  
+    background: #bf3924;  
+}  
+
+section {  
+    padding: 20px;  
+}  
+
+footer {  
+    background: #333;  
+    color: #fff;  
+    text-align: center;  
+    padding: 10px 0;  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+}  
+
+.social-links a {  
+    margin: 0 10px;  
+    color: #e84a2d;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+.social-links a:hover {  
+    text-decoration: underline;  
 }
